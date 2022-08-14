@@ -46,7 +46,7 @@ apiVersion: v1
 metadata:
   name: node-app-service 
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: node-app
   ports:
