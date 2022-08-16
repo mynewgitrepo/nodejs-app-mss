@@ -25,6 +25,6 @@ node
     }
     stage('deploy')
     {
-        sh "kubectl apply -f deployment.yaml"
+        sh " helm install nodeapp /home/ruser/newapp/nodejs-app-mss/helm/nodeapp/"
     }
 }
