@@ -2,7 +2,7 @@ node
 {
     stage('checkout')
     {
-        git 'https://github.com/raghu-suvega/nodejs-app-mss.git'
+        git 'https://github.com/mynewgitrepo/nodejs-app-mss.git'
     }
     stage('build')
     {
